@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>28b46071-d166-4ea4-a4b2-867028cdcd06</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonEmbeddingsExamples.py</StartupFile>
+    <StartupFile>GTEEmbeddings.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

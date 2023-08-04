@@ -14,7 +14,8 @@ corpus = ['A man is eating food.',
           'Two men pushed carts through the woods.',
           'A man is riding a white horse on an enclosed ground.',
           'A monkey is playing drums.',
-          'A cheetah is running behind its prey.'
+          'A cheetah is running behind its prey.',
+          'A woman is full from dinner and hates pasta'                    
           ]
 
 print("Processing Embeddings...")
@@ -23,7 +24,7 @@ corpus_embeddings_large = modelGTELarge.encode(corpus, convert_to_tensor=False)
 
 # Query sentences:
 queries = ['A man is eating pasta.', 'Someone in a gorilla costume is playing a set of drums.', 
-           'A cheetah chases prey on across a field.']
+           'A cheetah chases prey on across a field.', 'Girl is sick from eating too much food.']
 
 print("Semantic Search over Embeddings...")
 # Find the closest 5 sentences of the corpus for each query sentence based on cosine similarity
