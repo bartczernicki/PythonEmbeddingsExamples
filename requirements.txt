@@ -1,6 +1,7 @@
 datasets>=2.2.0
 jsonlines
 numpy
+rank_bm25
 requests>=2.26.0
 scikit_learn>=1.0.2
 scipy

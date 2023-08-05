@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>28b46071-d166-4ea4-a4b2-867028cdcd06</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>GTEEmbeddings.py</StartupFile>
+    <StartupFile>ReRanker.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,7 @@
     <Compile Include="GTEEmbeddings.py" />
     <Compile Include="PythonEmbeddingsExamples.py" />
     <Compile Include="PythonInstructorEmbeddings.py" />
+    <Compile Include="ReRanker.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="arxiv-metadata-10000.json" />
