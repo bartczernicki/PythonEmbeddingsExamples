@@ -32,6 +32,11 @@ wheels/
 *.manifest 
 *.spec 
 
+# Downloaded Files
+simplewiki-2020-11-01.jsonl
+simplewiki-2020-11-01.jsonl.gz
+arxiv-metadata-10000.json
+
 # User-specific files
 *.rsuser
 *.suo
